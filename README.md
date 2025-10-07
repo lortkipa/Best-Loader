@@ -1,17 +1,25 @@
-## Requirements
+# About the project
+BestLoader is part of BestOS, but it can be used for costum kernels too.  
+Project is written in assembly language mainly for performance reasons, but also because it uses [BestABI](https://github.com/lortkipa/Best-ABI) conventions, wich wouldn't be possible using existing compilers.  
+
+### Requirements
 * X86_64 CPU architecture
 * UEFI boot
 
-## UI
+# Progress
+The project is actively being developed and continuously improved, with bugs being fixed along the way.
+
+### UI
 - [ ] Graphics mode
 - [ ] Console mode
 
-## Boot protocols
+### Boot protocols
+- [ ] Costum
+- [ ] Chainloading
 - [ ] Linux
 - [ ] Multiboot2
-- [ ] Costum
 
-## Loadable formats
+### Loadable formats
+- [ ] Costum
 - [ ] Elf
 - [ ] Efi
-- [ ] Costum
