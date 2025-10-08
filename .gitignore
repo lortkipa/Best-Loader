@@ -1,0 +1,12 @@
+
+# binary files
+*.fd
+*.o
+*.obj
+*.out
+*.elf
+*.efi
+*.so
+*.iso
+*.img
+*.disk
